@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+nav{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+}
+.div0{
+    height: 50px;
+    width: 110px;
+    margin-right: 5px;
+    border: 2px solid transparent;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.div1{
+    background-image: url("amazon-logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.navaddress{
+    height: 60px;
+    width: 90px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+     
+}
+.add-first{
+    margin-left: 30px;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #cccccc;
+}
+.add-second{
+    margin-left: 10px;
+    padding-right: 50px;
+    color: white;
+}
+.location{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border2{
+    border: 2px solid transparent;
+}
+.border2:hover{
+    border: 2px solid white;
+}
+.icon{
+    margin-right: 14px;
+    margin-left: 10px;
+}
+#id{
+    height: 50px;
+    width: 60px;
+    background-color: #f3f3f3;
+    color: #0f1111;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.categories{
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+.searchBar{
+    height: 46px;
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    border: none;
+}
+.Search{
+    height: 50px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd580;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.2rem;
+}
+.background{
+    background-color: #ffd580;
+}
+.background:hover{
+    background-color: #ff9900;
+}
+.language{
+    height:50px;
+    width: 80px;
+    background-color: #0f1111;
+}
